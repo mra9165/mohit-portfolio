@@ -10,7 +10,7 @@ export const personalInfo = {
   phone: '+91-9315244734',
   github: 'https://github.com/mra9165', // Update with actual GitHub URL
   linkedin: 'https://www.linkedin.com/in/mohitraj1108/', // Update with actual LinkedIn URL
-  resumeUrl: '/Mohiit_Raj_Resume.pdf',
+  resumeUrl: '/Mohit_Raj_Resume.pdf',
   location: 'India',
   availability: 'Open to full-time ML Engineer & Data Scientist roles',
 }
