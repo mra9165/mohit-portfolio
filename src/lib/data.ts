@@ -210,6 +210,72 @@ export const projects = [
     demo: null,
     color: '#4ADE80',
   },
+  {
+  id: 'potato-disease',
+  title: 'Potato Disease Classification',
+  subtitle: 'Deep Learning · Computer Vision',
+  featured: true,
+  description:
+    'End-to-end deep learning system for automatic potato leaf disease classification using Convolutional Neural Networks (CNN). Built a robust image classification pipeline capable of accurately detecting Healthy, Early Blight, and Late Blight leaves to support early crop disease diagnosis.',
+  problem:
+    'Potato crops are vulnerable to fungal diseases that can severely reduce yield and quality if not detected early. Manual inspection is time-consuming and subjective, motivating an automated computer vision solution for rapid disease identification.',
+  dataset:
+    'Kaggle Potato Leaf Disease Dataset containing labeled RGB images across three classes: Healthy, Early Blight, and Late Blight. Images were preprocessed and augmented to improve model generalization and reduce overfitting.',
+
+  pipeline: [
+    'Data collection from Kaggle',
+    'Image preprocessing (resizing and normalization)',
+    'Data augmentation (rotation, flipping, zooming)',
+    'Train-validation-test split',
+    'CNN architecture design',
+    'Model training using TensorFlow/Keras',
+    'Performance evaluation using accuracy and loss metrics',
+    'Prediction and inference on unseen leaf images',
+  ],
+
+  featureEngineering: [
+    'Resized all images to a uniform input size for consistent model training',
+    'Normalized pixel values to accelerate convergence and stabilize optimization',
+    'Applied image augmentation techniques to improve robustness against varying field conditions',
+    'Balanced training pipeline to reduce overfitting and improve generalization',
+  ],
+
+  models: [
+    'Convolutional Neural Network (CNN)',
+    'ReLU Activation',
+    'MaxPooling Layers',
+    'Fully Connected Dense Layers',
+    'Softmax Classifier',
+  ],
+
+  tuning:
+    'Optimized CNN architecture by experimenting with convolutional layers, learning rate, batch size, and training epochs while monitoring validation accuracy to prevent overfitting.',
+
+  metric:
+    'Classification Accuracy on validation dataset along with training/validation loss curves',
+
+  results: [
+    'Achieved 99.19% training accuracy',
+    'Achieved 99.48% validation accuracy',
+    'Successfully classified Healthy, Early Blight, and Late Blight leaf images',
+    'Image augmentation significantly improved model generalization on unseen samples',
+  ],
+
+  technologies: [
+    'Python',
+    'TensorFlow',
+    'Keras',
+    'NumPy',
+    'OpenCV',
+    'Scikit-learn',
+    'Matplotlib',
+    'Jupyter Notebook',
+  ],
+
+  github: 'https://github.com/mra9165/Deeplearning_E2E_Potato_disease_classificatio.git', // Update with actual repository
+  demo: null,
+  color: '#22C55E',
+},
 ]
 
 export const certifications = [
